@@ -1,0 +1,11 @@
+{
+  "name": "lexora",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix frontend && npm install --prefix backend/local-gateway && npm install --prefix backend/service-der && npm install --prefix backend/service-arbitrage && npm run build --prefix frontend",
+    "start": "node deploy/start.js"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}

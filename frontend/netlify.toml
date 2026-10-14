@@ -1,0 +1,44 @@
+# Netlify — Lexora frontend (Create React App)
+
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  # Netlify exporte CI=true, et CRA transforme alors les warnings ESLint en
+  # erreurs. Le code a des warnings → garder CI=false, sinon chaque deploy échoue.
+  CI = "false"
+  # .env n'est PAS commité (il contient AI_API_KEY). Sans REACT_APP_API_URL,
+  # src/axios.js retombe sur le backend de production — le build Netlify marche
+  # donc sans variable. Pour viser un autre backend (staging…), définissez
+  # REACT_APP_API_URL dans Site configuration → Environment variables. Ne la
+  # figez pas ici : netlify.toml écrase l'UI et ne permet pas de valeur par contexte.
+  # AI_API_KEY (secret Groq) se définit au même endroit — jamais dans ce fichier.
+
+# Proxy de l'assistant IA : netlify/functions/ai-chat.mjs et ai-transcribe.mjs
+# (logique dans netlify/lib/aiCore.js). Servies sous /.netlify/functions/* — même
+# origine que l'app, donc aucun CORS. Elles lisent AI_API_KEY (variable Netlify,
+# scope « Functions », cochée « Contains secret values »).
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# Fallback SPA : React Router (createBrowserRouter) gère les chemins côté client.
+# Sans cette règle, un refresh ou un lien direct (/login, /admin/…) renvoie un 404 Netlify.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# CRA émet des fichiers hashés sous /static — cache infini sans risque.
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# index.html ne doit jamais être servi depuis un cache périmé après un deploy.
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache"

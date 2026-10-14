@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: lexora
+    runtime: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: CI
+        value: "false"
+      - key: NODE_VERSION
+        value: "20"

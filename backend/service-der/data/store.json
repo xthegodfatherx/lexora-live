@@ -1,0 +1,656 @@
+{
+  "dossiers": [
+    {
+      "id": "mv7d75dz7577cz",
+      "reference": "DER-AJ-2026-0002",
+      "type": "analyse",
+      "departement": "DER-AJ",
+      "canal": "direction_conformite",
+      "urgence": "normale",
+      "prioritaire": false,
+      "activite": "Aval",
+      "objet": "Conformité du stockage de carburants aux normes environnementales",
+      "textesApplicables": "Décret environnement, loi hydrocarbures",
+      "delai": "2026-10-13",
+      "documentRecu": "",
+      "actifId": null,
+      "analysteNom": "Amina Benali",
+      "statut": "archive",
+      "corps": "Le dépôt de carburants doit disposer d'une autorisation environnementale à jour. Écart constaté sur le plan de prévention.",
+      "citations": [],
+      "satisfaction": {
+        "note": 4,
+        "commentaire": "Utile, délai un peu long.",
+        "par": "Root Admin",
+        "date": "2026-10-14T00:21:34.343Z"
+      },
+      "signature": null,
+      "dateSaisie": "2026-10-14T00:21:34.343Z",
+      "dateLivraison": "2026-10-14T00:21:34.343Z",
+      "dateArchive": "2026-10-14T00:21:34.343Z",
+      "demandeur": {
+        "id": "2",
+        "nom": "Root Admin",
+        "role": "admin"
+      },
+      "historique": [
+        {
+          "action": "saisie",
+          "par": "Root Admin",
+          "role": "admin",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Routage automatique vers DER-AJ (canal direction_conformite)"
+        },
+        {
+          "action": "assignation",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Analyste : Amina Benali"
+        },
+        {
+          "action": "soumis_chef",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Soumis au chef de département"
+        },
+        {
+          "action": "valide_chef",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Validé par le chef de département"
+        },
+        {
+          "action": "soumis_directeur",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Soumis au directeur DER"
+        },
+        {
+          "action": "valide_directeur",
+          "par": "Sara Meziane",
+          "role": "directeur_direction",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Validé par le directeur DER"
+        },
+        {
+          "action": "livre",
+          "par": "Sara Meziane",
+          "role": "directeur_direction",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Livré au demandeur"
+        },
+        {
+          "action": "archive",
+          "par": "Sara Meziane",
+          "role": "directeur_direction",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Archivé dans la mémoire interne"
+        },
+        {
+          "action": "satisfaction",
+          "par": "Root Admin",
+          "role": "admin",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "4"
+        }
+      ]
+    },
+    {
+      "id": "mv7d75dza4kc5h",
+      "reference": "DER-SJOP-2026-0001",
+      "type": "patrimonial",
+      "departement": "DER-SJOP",
+      "canal": "activite",
+      "urgence": "normale",
+      "prioritaire": false,
+      "activite": "Amont",
+      "objet": "Renouvellement de la concession de Hassi R'Mel",
+      "textesApplicables": "Loi sur les hydrocarbures — titres miniers",
+      "delai": "2026-10-26",
+      "documentRecu": "",
+      "actifId": null,
+      "analysteNom": "Karim Mansouri",
+      "statut": "en_cours",
+      "corps": "",
+      "citations": [],
+      "satisfaction": null,
+      "signature": null,
+      "dateSaisie": "2026-10-14T00:21:34.343Z",
+      "dateLivraison": null,
+      "dateArchive": null,
+      "demandeur": {
+        "id": "2",
+        "nom": "Root Admin",
+        "role": "admin"
+      },
+      "historique": [
+        {
+          "action": "saisie",
+          "par": "Root Admin",
+          "role": "admin",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Routage automatique vers DER-SJOP (canal activite)"
+        },
+        {
+          "action": "assignation",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Analyste : Karim Mansouri"
+        }
+      ]
+    },
+    {
+      "id": "mv7d75dzhqtu6q",
+      "reference": "DER-RVJ-2026-0001",
+      "type": "veille",
+      "departement": "DER-RVJ",
+      "canal": "direction_contrats",
+      "urgence": "haute",
+      "prioritaire": false,
+      "activite": "Commerce",
+      "objet": "Avis sur le projet de décret des marchés publics",
+      "textesApplicables": "Code des marchés publics",
+      "delai": "2026-10-17",
+      "documentRecu": "Projet de décret transmis par la Direction Contrats, articles 12 à 18 sur les délais de recours.",
+      "actifId": null,
+      "analysteNom": "Nadia Cherif",
+      "statut": "soumis_chef",
+      "corps": "",
+      "citations": [],
+      "satisfaction": null,
+      "signature": null,
+      "dateSaisie": "2026-10-14T00:21:34.343Z",
+      "dateLivraison": null,
+      "dateArchive": null,
+      "demandeur": {
+        "id": "4",
+        "nom": "Yacine Haddad",
+        "role": "responsable_departement"
+      },
+      "historique": [
+        {
+          "action": "saisie",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Routage automatique vers DER-RVJ (canal direction_contrats)"
+        },
+        {
+          "action": "assignation",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Analyste : Nadia Cherif"
+        },
+        {
+          "action": "soumis_chef",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "Prêt pour relecture du chef"
+        }
+      ]
+    },
+    {
+      "id": "mv7d75dmhvfbyc",
+      "reference": "DER-AJ-2026-0001",
+      "type": "analyse",
+      "departement": "DER-AJ",
+      "canal": "dg",
+      "urgence": "critique",
+      "prioritaire": true,
+      "activite": "TRC",
+      "objet": "Régime fiscal des contrats d'exploration pétrolière",
+      "textesApplicables": "Loi sur les hydrocarbures, Code des impôts directs",
+      "delai": "2026-10-19",
+      "documentRecu": "",
+      "actifId": null,
+      "analysteNom": "Amina Benali",
+      "statut": "livre",
+      "corps": "Le régime fiscal applicable combine la redevance superficiaire et la taxe sur le revenu pétrolier. Position recommandée : confirmer l'assiette avant transmission à la Direction Générale.",
+      "citations": [],
+      "satisfaction": {
+        "note": 5,
+        "commentaire": "Avis clair et dans le délai.",
+        "par": "Root Admin",
+        "date": "2026-10-14T00:21:34.343Z"
+      },
+      "signature": {
+        "signataire": "Sara Meziane",
+        "role": "directeur_direction",
+        "date": "2026-10-14T00:21:34.343Z",
+        "empreinte": "2d12182c53ace9034e46260f199a8af2c86e10e229b5d42cd51cad3d88a66b12",
+        "tampon": "DCJ — Direction Études et Réglementation",
+        "nature": "Sceau interne (empreinte du livrable). Ce n'est pas un certificat qualifié."
+      },
+      "dateSaisie": "2026-10-06T08:00:00.000Z",
+      "dateLivraison": "2026-10-12T16:00:00.000Z",
+      "dateArchive": null,
+      "demandeur": {
+        "id": "2",
+        "nom": "Root Admin",
+        "role": "admin"
+      },
+      "historique": [
+        {
+          "action": "saisie",
+          "par": "Root Admin",
+          "role": "admin",
+          "date": "2026-10-14T00:21:34.330Z",
+          "commentaire": "Routage automatique vers DER-AJ (canal dg)"
+        },
+        {
+          "action": "assignation",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.330Z",
+          "commentaire": "Analyste : Amina Benali"
+        },
+        {
+          "action": "soumis_chef",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.330Z",
+          "commentaire": "Soumis au chef de département"
+        },
+        {
+          "action": "valide_chef",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.330Z",
+          "commentaire": "Validé par le chef de département"
+        },
+        {
+          "action": "soumis_directeur",
+          "par": "Yacine Haddad",
+          "role": "responsable_departement",
+          "date": "2026-10-14T00:21:34.330Z",
+          "commentaire": "Soumis au directeur DER"
+        },
+        {
+          "action": "valide_directeur",
+          "par": "Sara Meziane",
+          "role": "directeur_direction",
+          "date": "2026-10-14T00:21:34.331Z",
+          "commentaire": "Validé par le directeur DER"
+        },
+        {
+          "action": "livre",
+          "par": "Sara Meziane",
+          "role": "directeur_direction",
+          "date": "2026-10-14T00:21:34.331Z",
+          "commentaire": "Livré au demandeur"
+        },
+        {
+          "action": "sceau",
+          "par": "Sara Meziane",
+          "role": "directeur_direction",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "2d12182c53ace903"
+        },
+        {
+          "action": "satisfaction",
+          "par": "Root Admin",
+          "role": "admin",
+          "date": "2026-10-14T00:21:34.343Z",
+          "commentaire": "5"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl-avis",
+      "code": "AVIS",
+      "nom": "Avis juridique SONATRACH",
+      "departement": "DER-AJ",
+      "corps": "AVIS JURIDIQUE\nRéférence : {{reference}}\nDate : {{date}}\nActivité demanderesse : {{activite}}\nObjet : {{objet}}\n\n1. Saisine\n{{objet}}\n\n2. Textes applicables\n{{textes}}\n\n3. Analyse\n[Exposé des faits, qualification juridique, application des textes cités.]\n\n4. Conclusion\n[Avis motivé. Position recommandée à la Direction Générale ou à l'Activité.]\n\nCitations du corpus interne\n{{citations}}",
+      "createdAt": "2026-10-13T23:29:29.110Z"
+    },
+    {
+      "id": "tpl-rapport",
+      "code": "RAPPORT",
+      "nom": "Rapport d'analyse juridique",
+      "departement": "DER-AJ",
+      "corps": "RAPPORT D'ANALYSE JURIDIQUE\nRéférence : {{reference}}\nDestinataire : Direction Générale\nActivité : {{activite}}\nObjet : {{objet}}\n\nI. Contexte\nII. Problème juridique\nIII. Textes et précédents internes\n{{textes}}\n{{citations}}\nIV. Recommandations\nV. Suites à donner",
+      "createdAt": "2026-10-13T23:29:29.111Z"
+    },
+    {
+      "id": "tpl-fiche",
+      "code": "FICHE",
+      "nom": "Fiche de texte réglementaire",
+      "departement": "DER-RVJ",
+      "corps": "FICHE DE TEXTE\nSource : {{source}}\nObjet : {{objet}}\n\nRésumé\n[Essentiel du texte.]\n\nImpact SONATRACH\n[Activités concernées et obligations nouvelles.]\n\nTextes liés\n{{textes}}",
+      "createdAt": "2026-10-13T23:29:29.112Z"
+    },
+    {
+      "id": "tpl-cr",
+      "code": "CR-PATRIMOINE",
+      "nom": "Compte rendu de suivi patrimonial",
+      "departement": "DER-SJOP",
+      "corps": "COMPTE RENDU DE SUIVI PATRIMONIAL\nRéférence : {{reference}}\nActivité de rattachement : {{activite}}\nObjet : {{objet}}\n\nÉtat juridique de l'actif\nÉchéances\nDécision proposée",
+      "createdAt": "2026-10-13T23:29:29.112Z"
+    }
+  ],
+  "fiches": [
+    {
+      "id": "mv7d75ebaehzau",
+      "reference": "DER-RVJ-2026-0004",
+      "sourceId": "marches",
+      "sourceNom": "Textes relatifs aux marchés publics",
+      "titre": "Marchés publics — délais de recours des soumissionnaires",
+      "texte": "Les textes des marchés publics organisent l'appel d'offres, l'adjudication et le délai de recours d'un soumissionnaire évincé.",
+      "resume": "Les textes des marchés publics organisent l'appel d'offres, l'adjudication et le délai de recours d'un soumissionnaire évincé.",
+      "impact": [
+        {
+          "activite": "Marchés",
+          "raison": "Termes relevés : appel d offres, soumission, adjudication",
+          "termes": [
+            "appel d offres",
+            "soumission",
+            "adjudication"
+          ]
+        }
+      ],
+      "textesLies": [],
+      "statutTexte": "en_vigueur",
+      "createdAt": "2026-10-14T00:21:34.355Z",
+      "auteur": "Yacine Haddad"
+    },
+    {
+      "id": "mv7d75ea9rpjx7",
+      "reference": "DER-RVJ-2026-0003",
+      "sourceId": "codes",
+      "sourceNom": "CPCA, Code civil, Code du travail",
+      "titre": "Code du travail — dispositions applicables au personnel",
+      "texte": "Le code du travail fixe la rémunération, les conditions de licenciement et le rôle du syndicat pour le personnel de SONATRACH.",
+      "resume": "Le code du travail fixe la rémunération, les conditions de licenciement et le rôle du syndicat pour le personnel de SONATRACH.",
+      "impact": [
+        {
+          "activite": "Personnel",
+          "raison": "Termes relevés : travail, syndicat, remuneration, licenciement",
+          "termes": [
+            "travail",
+            "syndicat",
+            "remuneration",
+            "licenciement"
+          ]
+        }
+      ],
+      "textesLies": [],
+      "statutTexte": "modifie",
+      "createdAt": "2026-10-14T00:21:34.354Z",
+      "auteur": "Yacine Haddad"
+    },
+    {
+      "id": "mv7d75e6di1p38",
+      "reference": "DER-RVJ-2026-0002",
+      "sourceId": "hydro",
+      "sourceNom": "Loi sur les hydrocarbures",
+      "titre": "Loi sur les hydrocarbures — titres et transport",
+      "texte": "La loi sur les hydrocarbures encadre l'exploration, le transport par canalisation et le renouvellement des concessions. Elle vise l'amont, le gaz naturel liquéfié et les obligations de remise en état.",
+      "resume": "La loi sur les hydrocarbures encadre l'exploration, le transport par canalisation et le renouvellement des concessions. Elle vise l'amont, le gaz naturel liquéfié et les obligations de remise en état.",
+      "impact": [
+        {
+          "activite": "Amont",
+          "raison": "Termes relevés : hydrocarbure, exploration, amont",
+          "termes": [
+            "hydrocarbure",
+            "exploration",
+            "amont"
+          ]
+        },
+        {
+          "activite": "TRC",
+          "raison": "Termes relevés : canalisation, transport",
+          "termes": [
+            "canalisation",
+            "transport"
+          ]
+        },
+        {
+          "activite": "LNG",
+          "raison": "Termes relevés : gaz naturel liquefie",
+          "termes": [
+            "gaz naturel liquefie"
+          ]
+        }
+      ],
+      "textesLies": [],
+      "statutTexte": "en_vigueur",
+      "createdAt": "2026-10-14T00:21:34.351Z",
+      "auteur": "Yacine Haddad"
+    }
+  ],
+  "commentaires": [
+    {
+      "id": "mv7d75eb840bog",
+      "ficheId": "mv7d75e6di1p38",
+      "versions": [
+        {
+          "n": 1,
+          "corps": "Version 1 — le transport par canalisation reste soumis à autorisation préalable.",
+          "auteur": "Yacine Haddad",
+          "date": "2026-10-14T00:21:34.355Z"
+        },
+        {
+          "n": 2,
+          "corps": "Version 2 — ajouter l'impact sur les concessions arrivant à échéance sous 90 jours.",
+          "auteur": "Sara Meziane",
+          "date": "2026-10-14T00:21:34.355Z"
+        }
+      ]
+    }
+  ],
+  "actifs": [
+    {
+      "id": "mv7d75ecn985fi",
+      "reference": "ACT-2026-0003",
+      "intitule": "Participation NAFTAL",
+      "type": "participation",
+      "activite": "Aval",
+      "statutJuridique": "litigieux",
+      "documents": [
+        "Statuts",
+        "Registre de commerce"
+      ],
+      "textesIds": [],
+      "echeance": "2027-05-02",
+      "createdAt": "2026-10-14T00:21:34.356Z"
+    },
+    {
+      "id": "mv7d75ecc471xz",
+      "reference": "ACT-2026-0002",
+      "intitule": "Assiette foncière — base de Laghouat",
+      "type": "foncier",
+      "activite": "TRC",
+      "statutJuridique": "en_regularisation",
+      "documents": [
+        "Acte notarié",
+        "Permis de construire"
+      ],
+      "textesIds": [
+        "mv7d75e6di1p38"
+      ],
+      "echeance": "2026-12-13",
+      "createdAt": "2026-10-14T00:21:34.356Z"
+    },
+    {
+      "id": "mv7d75ec7lo6w0",
+      "reference": "ACT-2026-0001",
+      "intitule": "Concession Hassi R'Mel",
+      "type": "concession",
+      "activite": "Amont",
+      "statutJuridique": "actif",
+      "documents": [
+        "Titre minier HRM-2014",
+        "Arrêté d'attribution"
+      ],
+      "textesIds": [
+        "mv7d75e6di1p38"
+      ],
+      "echeance": "2026-11-01",
+      "createdAt": "2026-10-14T00:21:34.356Z"
+    }
+  ],
+  "operations": [
+    {
+      "id": "mv7d75ecr0rq7k",
+      "actifId": "mv7d75ec7lo6w0",
+      "nature": "acquisition",
+      "objet": "Extension du périmètre nord",
+      "statut": "soumis",
+      "demandeur": "Yacine Haddad",
+      "historique": [
+        {
+          "action": "soumis",
+          "par": "Yacine Haddad",
+          "date": "2026-10-14T00:21:34.356Z"
+        }
+      ]
+    },
+    {
+      "id": "mv7d75ec1brtis",
+      "actifId": "mv7d75ec7lo6w0",
+      "nature": "cession",
+      "objet": "Cession partielle du périmètre sud",
+      "statut": "approuve",
+      "demandeur": "Yacine Haddad",
+      "historique": [
+        {
+          "action": "soumis",
+          "par": "Yacine Haddad",
+          "date": "2026-10-14T00:21:34.356Z"
+        },
+        {
+          "action": "approuve",
+          "par": "Sara Meziane",
+          "date": "2026-10-14T00:21:34.356Z"
+        }
+      ]
+    }
+  ],
+  "alertes": [
+    {
+      "id": "mv7d75ecuje85c",
+      "kind": "echeance_90",
+      "actifId": "mv7d75ecc471xz",
+      "message": "ACT-2026-0002 — Assiette foncière — base de Laghouat : échéance dans 60 jour(s) (seuil 90 j)",
+      "echeance": "2026-12-13",
+      "createdAt": "2026-10-14T00:21:34.356Z",
+      "lu": false
+    },
+    {
+      "id": "mv7d75ec5j3dzo",
+      "kind": "echeance_30",
+      "actifId": "mv7d75ec7lo6w0",
+      "message": "ACT-2026-0001 — Concession Hassi R'Mel : échéance dans 18 jour(s) (seuil 30 j)",
+      "echeance": "2026-11-01",
+      "createdAt": "2026-10-14T00:21:34.356Z",
+      "lu": false
+    },
+    {
+      "id": "mv7d75ecsebkie",
+      "kind": "echeance_90",
+      "actifId": "mv7d75ec7lo6w0",
+      "message": "ACT-2026-0001 — Concession Hassi R'Mel : échéance dans 18 jour(s) (seuil 90 j)",
+      "echeance": "2026-11-01",
+      "createdAt": "2026-10-14T00:21:34.356Z",
+      "lu": false
+    }
+  ],
+  "profils": [
+    {
+      "id": "profil-trc",
+      "nom": "Veille TRC",
+      "activites": [
+        "TRC",
+        "Amont"
+      ],
+      "themes": [
+        "hydrocarbures",
+        "canalisation"
+      ],
+      "createdAt": "2026-10-14T00:21:34.356Z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "jora",
+      "nom": "Journal Officiel (JORA)",
+      "type": "Textes nationaux",
+      "pertinence": "Tous les textes impactant les hydrocarbures",
+      "url": "https://www.joradp.dz/HAR/Index.htm",
+      "mode": "collecte"
+    },
+    {
+      "id": "hydro",
+      "nom": "Loi sur les hydrocarbures",
+      "type": "Sectoriel",
+      "pertinence": "Impact direct sur toutes les Activités",
+      "url": "",
+      "mode": "reference"
+    },
+    {
+      "id": "codes",
+      "nom": "CPCA, Code civil, Code du travail",
+      "type": "Général",
+      "pertinence": "Contrats, litiges, personnel",
+      "url": "",
+      "mode": "reference"
+    },
+    {
+      "id": "marches",
+      "nom": "Textes relatifs aux marchés publics",
+      "type": "Marchés",
+      "pertinence": "Appels d'offres et contrats",
+      "url": "",
+      "mode": "reference"
+    },
+    {
+      "id": "bit",
+      "nom": "Conventions bilatérales, BIT",
+      "type": "International",
+      "pertinence": "Partenariats et investissements",
+      "url": "",
+      "mode": "reference"
+    },
+    {
+      "id": "circulaires",
+      "nom": "Circulaires et instructions",
+      "type": "Interne",
+      "pertinence": "Procédures SONATRACH",
+      "url": "",
+      "mode": "reference"
+    }
+  ],
+  "journal": [
+    {
+      "id": "mv7e23k2yqkg7x",
+      "sourceId": "jora",
+      "date": "2026-10-14T00:45:38.306Z",
+      "trouves": 0,
+      "message": "Page atteinte, aucun intitulé nouveau reconnu",
+      "http": 200
+    },
+    {
+      "id": "journal-demo",
+      "sourceId": "jora",
+      "date": "2026-10-14T00:21:34.356Z",
+      "trouves": 0,
+      "message": "Jeu de démonstration local chargé. La collecte JORA reste disponible.",
+      "http": 0
+    }
+  ],
+  "seq": {
+    "DER-AJ-2026": 2,
+    "DER-RVJ-2026": 4,
+    "DER-SJOP-2026": 1,
+    "ACT-2026": 3
+  }
+}
